@@ -21,7 +21,7 @@ export function CTASection() {
               className="gap-2 px-8"
               asChild
             >
-              <Link href="/pricing">
+              <Link href="https://zentrodesk.com/signup">
                 Start Free Trial
                 <ArrowRight className="h-4 w-4" />
               </Link>
@@ -32,7 +32,7 @@ export function CTASection() {
               className="gap-2 border-primary-foreground/20 bg-transparent px-8 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground"
               asChild
             >
-              <Link href="#features">Talk to Sales</Link>
+              <Link href="/contact">Talk to Sales</Link>
             </Button>
           </div>
         </div>

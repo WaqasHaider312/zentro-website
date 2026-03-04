@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { FileText, Database, Zap } from "lucide-react"
 
@@ -54,8 +55,8 @@ export function HowItWorksSection() {
               We're offical partner of Meta that enables our customers to setup their channels in few clicks.All you need is 5minutes for whole transition.
             </p>
 
-            <Button size="lg" variant="outline" className="gap-2">
-              Request a personalized demo
+            <Button size="lg" variant="outline" className="gap-2" asChild>
+              <Link href="https://zentrodesk.com/signup">Start Free Trial</Link>
             </Button>
 
             <div className="mt-12 space-y-4">

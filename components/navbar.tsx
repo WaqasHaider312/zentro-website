@@ -9,6 +9,7 @@ const navLinks = [
   { href: "/", label: "Home" },
   { href: "/pricing", label: "Pricing" },
   { href: "/about", label: "About" },
+  { href: "/contact", label: "Contact" },
 ]
 
 export function Navbar() {
@@ -41,10 +42,10 @@ export function Navbar() {
 
         <div className="hidden items-center gap-3 md:flex">
           <Button variant="ghost" size="sm" asChild>
-            <Link href="/pricing">Log in</Link>
+            <Link href="https://zentrodesk.com/login">Log in</Link>
           </Button>
           <Button size="sm" asChild>
-            <Link href="/pricing">Start Free Trial</Link>
+            <Link href="https://zentrodesk.com/signup">Start Free Trial</Link>
           </Button>
         </div>
 
@@ -78,10 +79,10 @@ export function Navbar() {
           </ul>
           <div className="mt-4 flex flex-col gap-2">
             <Button variant="ghost" size="sm" asChild>
-              <Link href="/pricing">Log in</Link>
+              <Link href="https://zentrodesk.com/login">Log in</Link>
             </Button>
             <Button size="sm" asChild>
-              <Link href="/pricing">Start Free Trial</Link>
+              <Link href="https://zentrodesk.com/signup">Start Free Trial</Link>
             </Button>
           </div>
         </div>

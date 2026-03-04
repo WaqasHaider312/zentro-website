@@ -71,17 +71,15 @@ export function PricingCards() {
         </span>
         <button
           onClick={() => setIsYearly(!isYearly)}
-          className={`relative inline-flex h-6 w-11 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ${
-            isYearly ? "bg-primary" : "bg-muted"
-          }`}
+          className={`relative inline-flex h-6 w-11 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ${isYearly ? "bg-primary" : "bg-muted"
+            }`}
           role="switch"
           aria-checked={isYearly}
           aria-label="Toggle yearly billing"
         >
           <span
-            className={`pointer-events-none block h-5 w-5 rounded-full bg-card shadow-lg ring-0 transition-transform ${
-              isYearly ? "translate-x-5" : "translate-x-0"
-            }`}
+            className={`pointer-events-none block h-5 w-5 rounded-full bg-card shadow-lg ring-0 transition-transform ${isYearly ? "translate-x-5" : "translate-x-0"
+              }`}
           />
         </button>
         <span
@@ -101,11 +99,10 @@ export function PricingCards() {
         {plans.map((plan) => (
           <div
             key={plan.name}
-            className={`relative flex flex-col rounded-2xl border p-8 ${
-              plan.popular
-                ? "border-primary bg-card shadow-lg"
-                : "border-border bg-card"
-            }`}
+            className={`relative flex flex-col rounded-2xl border p-8 ${plan.popular
+              ? "border-primary bg-card shadow-lg"
+              : "border-border bg-card"
+              }`}
           >
             {plan.popular && (
               <div className="absolute -top-3.5 left-1/2 -translate-x-1/2">
@@ -153,7 +150,7 @@ export function PricingCards() {
               variant={plan.popular ? "default" : "outline"}
               asChild
             >
-              <Link href="#">
+              <Link href="https://zentrodesk.com/signup">
                 {plan.monthlyPrice !== null
                   ? "Start Free Trial"
                   : "Contact Sales"}

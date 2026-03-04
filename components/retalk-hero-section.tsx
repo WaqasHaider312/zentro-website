@@ -18,9 +18,11 @@ export function RetalkHeroSection() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              <Button size="lg" className="gap-2 px-8 bg-foreground text-background hover:bg-foreground/90">
-                Request a personalized demo
-                <ArrowRight className="h-4 w-4" />
+              <Button size="lg" className="gap-2 px-8 bg-foreground text-background hover:bg-foreground/90" asChild>
+                <Link href="https://zentrodesk.com/signup">
+                  Start Free Trial
+                  <ArrowRight className="h-4 w-4" />
+                </Link>
               </Button>
             </div>
 
@@ -55,7 +57,7 @@ export function RetalkHeroSection() {
                 <div className="flex gap-2">
                   <MessageCircle className="w-4 h-4 text-muted-foreground flex-shrink-0 mt-1" />
                   <div className="text-sm text-foreground bg-muted rounded-xl px-4 py-2">
-                    Qu'est-ce que Retalk.bot?
+                    How does Zentro Desk work?
                   </div>
                 </div>
               </div>
@@ -64,7 +66,7 @@ export function RetalkHeroSection() {
                 <div className="flex gap-2">
                   <MessageCircle className="w-4 h-4 text-muted-foreground flex-shrink-0 mt-1" />
                   <div className="text-sm text-foreground bg-muted rounded-xl px-4 py-2">
-                    Quelles sont les fonctionnalités?
+                    What channels do you support?
                   </div>
                 </div>
               </div>
@@ -73,14 +75,14 @@ export function RetalkHeroSection() {
                 <div className="flex gap-2">
                   <MessageCircle className="w-4 h-4 text-muted-foreground flex-shrink-0 mt-1" />
                   <div className="text-sm text-foreground bg-muted rounded-xl px-4 py-2">
-                    Comment l'installer sur ma boutique?
+                    How do I connect my WhatsApp?
                   </div>
                 </div>
               </div>
 
               <div className="flex justify-end">
                 <button className="bg-chart-2 text-white rounded-xl px-4 py-2 text-sm hover:bg-chart-2/90">
-                  Je veux booker une démo. 🚀
+                  I want to start my free trial! 🚀
                 </button>
               </div>
             </div>

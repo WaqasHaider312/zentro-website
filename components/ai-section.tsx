@@ -67,7 +67,7 @@ export function AISection() {
 
                         <div className="mt-10">
                             <Button className="gap-2" asChild>
-                                <Link href="/pricing">
+                                <Link href="https://zentrodesk.com/signup">
                                     Get Started Free
                                     <ArrowRight className="h-4 w-4" />
                                 </Link>
