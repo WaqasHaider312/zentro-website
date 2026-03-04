@@ -30,7 +30,32 @@ export default function IndustriesPage() {
         </section>
 
         {/* Industries Grid */}
-        <IndustriesSection />
+        <section className="px-6 py-20 md:py-28">
+          <div className="mx-auto max-w-6xl">
+            <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+              {[
+                { name: "E-commerce", icon: "🛍️", desc: "Order tracking, returns, delivery queries" },
+                { name: "Fashion & Apparel", icon: "👗", desc: "Size guides, stock queries, styling help" },
+                { name: "Food & Grocery", icon: "🛒", desc: "Order issues, refunds, delivery updates" },
+                { name: "Electronics", icon: "📱", desc: "Technical support, warranty, repairs" },
+                { name: "Travel & Hospitality", icon: "✈️", desc: "Bookings, cancellations, itineraries" },
+                { name: "Healthcare", icon: "🏥", desc: "Appointments, prescriptions, queries" },
+                { name: "Education", icon: "🎓", desc: "Enrollment, course help, fee support" },
+                { name: "Finance", icon: "💳", desc: "Transactions, accounts, fraud alerts" },
+                { name: "Real Estate", icon: "🏠", desc: "Listings, viewings, documentation" },
+                { name: "Logistics", icon: "📦", desc: "Shipment tracking, POD, exceptions" },
+                { name: "SaaS", icon: "💻", desc: "Onboarding, billing, technical help" },
+                { name: "Retail", icon: "🏪", desc: "Product info, complaints, loyalty" },
+              ].map((industry) => (
+                <div key={industry.name} className="rounded-xl border border-border bg-card p-5 hover:border-primary/40 transition-colors">
+                  <div className="text-3xl mb-3">{industry.icon}</div>
+                  <h3 className="font-semibold text-foreground mb-1">{industry.name}</h3>
+                  <p className="text-xs text-muted-foreground leading-relaxed">{industry.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
 
         {/* Industry Specific Benefits */}
         <section className="border-t border-border bg-card/50 px-6 py-20 md:py-28">
@@ -155,7 +180,7 @@ export default function IndustriesPage() {
               Get started with a free 14-day trial tailored to your industry.
             </p>
             <Button size="lg" asChild>
-              <Link href="/pricing">Start Your Free Trial</Link>
+              <Link href="https://zentrodesk.com/signup">Start Your Free Trial</Link>
             </Button>
           </div>
         </section>
