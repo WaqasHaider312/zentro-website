@@ -150,7 +150,7 @@ export function PricingCards() {
               variant={plan.popular ? "default" : "outline"}
               asChild
             >
-              <Link href="https://zentrodesk.com/signup">
+              <Link href="https://app.zentrodesk.com/signup">
                 {plan.monthlyPrice !== null
                   ? "Start Free Trial"
                   : "Contact Sales"}

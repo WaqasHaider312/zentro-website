@@ -19,7 +19,7 @@ export function RetalkHeroSection() {
 
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <Button size="lg" className="gap-2 px-8 bg-foreground text-background hover:bg-foreground/90" asChild>
-                <Link href="https://zentrodesk.com/signup">
+                <Link href="https://app.zentrodesk.com/signup">
                   Start Free Trial
                   <ArrowRight className="h-4 w-4" />
                 </Link>

@@ -32,7 +32,7 @@ export default function ProductsPage() {
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
               <Button asChild>
-                <Link href="https://zentrodesk.com/signup">Start Free Trial</Link>
+                <Link href="https://app.zentrodesk.com/signup">Start Free Trial</Link>
               </Button>
               <Button variant="outline" asChild>
                 <Link href="#features">Explore Features</Link>
@@ -92,7 +92,7 @@ export default function ProductsPage() {
               Get started with a free 14-day trial. No credit card required.
             </p>
             <Button size="lg" asChild>
-              <Link href="https://zentrodesk.com/signup">Start Your Free Trial</Link>
+              <Link href="https://app.zentrodesk.com/signup">Start Your Free Trial</Link>
             </Button>
           </div>
         </section>

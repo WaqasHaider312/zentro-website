@@ -56,7 +56,7 @@ export function HowItWorksSection() {
             </p>
 
             <Button size="lg" variant="outline" className="gap-2" asChild>
-              <Link href="https://zentrodesk.com/signup">Start Free Trial</Link>
+              <Link href="https://app.zentrodesk.com/signup">Start Free Trial</Link>
             </Button>
 
             <div className="mt-12 space-y-4">

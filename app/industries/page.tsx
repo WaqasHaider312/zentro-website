@@ -180,7 +180,7 @@ export default function IndustriesPage() {
               Get started with a free 14-day trial tailored to your industry.
             </p>
             <Button size="lg" asChild>
-              <Link href="https://zentrodesk.com/signup">Start Your Free Trial</Link>
+              <Link href="https://app.zentrodesk.com/signup">Start Your Free Trial</Link>
             </Button>
           </div>
         </section>

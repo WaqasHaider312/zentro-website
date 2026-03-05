@@ -68,7 +68,7 @@ export default function ContactPage() {
               </h1>
               <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
                 Tell us about your business and we'll help you get started — or just{" "}
-                <Link href="https://zentrodesk.com/signup" className="text-primary font-semibold hover:underline">
+                <Link href="https://app.zentrodesk.com/signup" className="text-primary font-semibold hover:underline">
                   sign up directly
                 </Link>{" "}
                 for a free trial.
@@ -107,7 +107,7 @@ export default function ContactPage() {
                     <Phone className="h-4 w-4 text-primary" />
                     WhatsApp us
                   </a>
-                  <a href="https://zentrodesk.com/signup" className="flex items-center gap-2.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
+                  <a href="https://app.zentrodesk.com/signup" className="flex items-center gap-2.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
                     <MessageSquare className="h-4 w-4 text-primary" />
                     Start free trial directly
                   </a>
@@ -126,7 +126,7 @@ export default function ContactPage() {
                       Thanks for reaching out. We typically respond within a few hours.
                     </p>
                     <Button asChild>
-                      <Link href="https://zentrodesk.com/signup">
+                      <Link href="https://app.zentrodesk.com/signup">
                         Start Free Trial Now
                         <ArrowRight className="ml-2 h-4 w-4" />
                       </Link>
@@ -228,7 +228,7 @@ export default function ContactPage() {
 
                     <p className="text-xs text-center text-muted-foreground">
                       Or{" "}
-                      <Link href="https://zentrodesk.com/signup" className="text-primary font-semibold hover:underline">
+                      <Link href="https://app.zentrodesk.com/signup" className="text-primary font-semibold hover:underline">
                         start your free trial directly
                       </Link>{" "}
                       — no credit card needed.
