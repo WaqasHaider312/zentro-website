@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next"
 import { Inter, Space_Grotesk } from "next/font/google"
+import Script from "next/script"
 import "./globals.css"
 
 const inter = Inter({
@@ -91,7 +92,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable}`}>
-      <body className="font-sans antialiased">{children}</body>
+      <body className="font-sans antialiased">
+        {children}
+        <Script id="zentro-widget" strategy="afterInteractive">{`
+          window.ZentroWidget = { token: '409acbbb-8f66-481b-9c59-1a975394e257' };
+          (function(d,s){var js=d.createElement(s);js.src='https://zentro-desk-crm.vercel.app/widget.js';d.head.appendChild(js)})(document,'script');
+        `}</Script>
+      </body>
     </html>
   )
 }
