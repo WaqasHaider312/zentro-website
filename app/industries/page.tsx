@@ -1,6 +1,5 @@
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
-import { IndustriesSection } from "@/components/industries-section"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
@@ -31,7 +30,7 @@ export default function IndustriesPage() {
         </section>
 
         {/* Industries Grid */}
-        <IndustriesSection />
+
 
         {/* Industry Specific Benefits */}
         <section className="border-t border-border bg-card/50 px-6 py-20 md:py-28">

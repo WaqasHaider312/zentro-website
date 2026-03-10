@@ -3,13 +3,11 @@ import { RetalkHeroSection } from "@/components/retalk-hero-section"
 import { ProblemCardsSection } from "@/components/problem-cards-section"
 import { SolutionSection } from "@/components/solution-section"
 import { HowItWorksSection } from "@/components/how-it-works-section"
-import { UseCasesSection } from "@/components/use-cases-section"
 import { SocialProofSection } from "@/components/social-proof-section"
 import { ScalabilitySection } from "@/components/scalability-section"
 import { FeaturesSection } from "@/components/features-section"
 import { ChannelsSection } from "@/components/channels-section"
 import { AISection } from "@/components/ai-section"
-import { TrustSection } from "@/components/trust-section"
 import { PricingFAQ } from "@/components/pricing-faq"
 import { CTASection } from "@/components/cta-section"
 import { Footer } from "@/components/footer"
@@ -73,13 +71,11 @@ export default function HomePage() {
         <ProblemCardsSection />
         <SolutionSection />
         <HowItWorksSection />
-        <UseCasesSection />
         <SocialProofSection />
         <ScalabilitySection />
         <FeaturesSection />
         <ChannelsSection />
         <AISection />
-        <TrustSection />
         <PricingFAQ />
         <CTASection />
       </main>
