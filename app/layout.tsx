@@ -96,9 +96,10 @@ export default function RootLayout({
         {children}
         <Script id="zentro-widget" strategy="afterInteractive">{`
           window.ZentroWidget = { token: '409acbbb-8f66-481b-9c59-1a975394e257' };
-          (function(d,s){var js=d.createElement(s);js.src='https://zentro-desk-crm.vercel.app/widget.js';d.head.appendChild(js)})(document,'script');
+          (function(d,s){var js=d.createElement(s);js.src='https://app.zentrodesk.com/widget.js';d.head.appendChild(js)})(document,'script');
         `}</Script>
       </body>
     </html>
   )
 }
+
