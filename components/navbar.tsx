@@ -45,7 +45,7 @@ export function Navbar() {
             <Link href="https://app.zentrodesk.com/login">Log in</Link>
           </Button>
           <Button size="sm" asChild>
-            <Link href="https://app.zentrodesk.com/register">Start Free Trial</Link>
+            <Link href="https://app.zentrodesk.com/signup">Start Free Trial</Link>
           </Button>
         </div>
 
