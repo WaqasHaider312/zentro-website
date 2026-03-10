@@ -6,9 +6,9 @@ import { PricingComparison } from "@/components/pricing-comparison"
 import { PricingFAQ } from "@/components/pricing-faq"
 
 export const metadata = {
-  title: "Pricing - Zentro Desk",
-  description:
-    "Simple, transparent pricing for teams of all sizes. Start free and scale as you grow.",
+  title: "Pricing — Affordable Omnichannel CRM Plans",
+  description: "Simple, transparent pricing for Zentro Desk. AI agent, WhatsApp, Instagram, Messenger, and webchat — all included. Start free, scale as you grow.",
+  alternates: { canonical: "https://zentrodesk.com/pricing" },
 }
 
 export default function PricingPage() {

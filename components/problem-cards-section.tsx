@@ -5,17 +5,17 @@ export function ProblemCardsSection() {
     {
       title: "Nobody reads the documentation",
       description:
-        "FAQ, website, blog articles, newsletter... you deploy colossal resources to disseminate information, but nobody seems to read what you produce.",
+        "FAQ, website, blog articles, newsletter... you deploy colossal resources to disseminate information, but nobody seems to read what you produce.What customer want is to ask questions through interface in their native language",
       icon: BookOpen,
     },
     {
       title: "Your customers are frustrated",
       description:
-        "They want immediate answers to simple questions. Not spending 15 minutes digging through your site or FAQs. When they can't easily access the info, they lose patience, get angry, and leave.",
+        "They want immediate answers to simple questions. Not spending 15 minutes digging through your site,FAQs or waiting for agent to respond. When they can't easily access the info, they lose patience, get angry, and leave.",
       icon: AlertCircle,
     },
     {
-      title: "Your internal support is overwhelmed",
+      title: "Your support team is overwhelmed",
       description:
         "Repeating the same thing 10 times a day is neither motivating nor rewarding. Despite their good will, your team exhausts itself managing operational tasks instead of focusing on what matters.",
       icon: Zap,

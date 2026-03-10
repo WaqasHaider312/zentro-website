@@ -3,9 +3,9 @@ import { Footer } from "@/components/footer"
 import { Users, Target, Zap, Globe } from "lucide-react"
 
 export const metadata = {
-  title: "About Zentro Desk - Our Mission & Story",
-  description:
-    "Learn about Zentro Desk, our mission to transform customer support, and our commitment to excellence.",
+  title: "About — The Team Behind Zentro Desk",
+  description: "Learn about Zentro Desk — an omnichannel AI CRM built for e-commerce businesses. Our mission, story, and the product we are building.",
+  alternates: { canonical: "https://zentrodesk.com/about" },
 }
 
 export default function AboutPage() {
