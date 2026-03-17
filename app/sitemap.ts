@@ -24,24 +24,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
             priority: 0.7,
         },
         {
-            url: `${baseUrl}/case-studies`,
-            lastModified,
-            changeFrequency: "monthly",
-            priority: 0.8,
-        },
-        {
-            url: `${baseUrl}/integrations`,
-            lastModified,
-            changeFrequency: "monthly",
-            priority: 0.7,
-        },
-        {
-            url: `${baseUrl}/industries`,
-            lastModified,
-            changeFrequency: "monthly",
-            priority: 0.7,
-        },
-        {
             url: `${baseUrl}/blog`,
             lastModified,
             changeFrequency: "weekly",
